@@ -1,0 +1,36 @@
+
+.top-bar {
+    background: #000;
+    font-size: 14px;
+}
+.sectionn {
+    background: linear-gradient(120deg, #0a1a33, #1c153b);
+    padding: 100px 0;
+}
+
+.sectionn h1 {
+    font-size: 60px;
+}
+
+.hero-img {
+    max-height: 500px;
+}
+.services {
+    background: #fdf1f1;
+}
+
+.service-card {
+    background: #efb1b1;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    margin: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+}
+
