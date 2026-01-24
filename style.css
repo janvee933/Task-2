@@ -33,4 +33,135 @@
 .service-card:hover {
     transform: translateY(-8px);
 }
+/* .container removed to use Bootstrap defaults */
+
+/* Specialist Section Styles */
+.specialist-section {
+    background: #f8f9fa;
+    padding: 80px 0;
+}
+
+.specialist-title {
+    color: #ff6b35;
+    font-weight: bold;
+    font-size: 28px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.specialist-description {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    padding: 30px 0;
+}
+
+@media (max-width: 768px) {
+    .skills-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 576px) {
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.skill-item {
+    text-align: center;
+    padding: 20px;
+    border-radius: 12px;
+    background: white;
+    box-shadow: 0 3px 15px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.skill-item:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 25px rgba(255, 107, 53, 0.2);
+}
+
+.skill-icon {
+    font-size: 2.5rem;
+    color: #ff6b35;
+    margin-bottom: 12px;
+}
+
+.skill-item p {
+    margin: 12px 0 0 0;
+    color: #333;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.specialist-image {
+    border-radius: 15px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+    max-height: 400px;
+    object-fit: cover;
+}
+
+/* Animated Container Section */
+.animated-container-section {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.animated-box {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+    animation: floatLoop 4s ease-in-out infinite;
+}
+
+.box-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-content h4 {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.box-content p {
+    margin-top: 15px;
+    font-size: 16px;
+    opacity: 0.95;
+}
+
+/* Float Animation */
+@keyframes floatLoop {
+    0% {
+        transform: translateY(0px) scale(1);
+    }
+    25% {
+        transform: translateY(-30px) scale(1.05);
+    }
+    50% {
+        transform: translateY(0px) scale(1);
+    }
+    75% {
+        transform: translateY(-20px) scale(1.02);
+    }
+    100% {
+        transform: translateY(0px) scale(1);
+    }
+}
 
