@@ -26,7 +26,9 @@
 
     <nav class="navbar navbar-expand-lg navbar-light bg-white shadow">
         <div class="container">
-            <img src="logo.png" alt="Kvon Tech Logo" class="navbar-brand" width="75" height="40">
+            <a href="index.html" class="navbar-brand">
+                <img src="logo.png" alt="Kvon Tech Logo" width="75" height="40">
+            </a>
 
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
                 <span class="navbar-toggler-icon"></span>
@@ -34,104 +36,167 @@
 
             <div class="navbar-collapse" id="navMenu">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-2">
-                    <li class="nav-item"><a class="nav-link fw-500 nav-link-hover" href="#">About</a></li>
-                    <li class="nav-item"><a class="nav-link fw-500 nav-link-hover" href="#">Industries</a></li>
-                    <li class="nav-item"><a class="nav-link fw-500 nav-link-hover" href="#">Services</a></li>
-                    <li class="nav-item"><a class="nav-link fw-500 nav-link-hover" href="#">Portfolio</a></li>
-                    <li class="nav-item"><a class="nav-link fw-500 nav-link-hover" href="#">AI/ML</a></li>
-                    <li class="nav-item"><a class="nav-link fw-500 nav-link-hover" href="#">Internship</a></li>
-                    <li class="nav-item"><a class="nav-link fw-500 nav-link-hover" href="#">Career</a></li>
+                    <li class="nav-item"><a class="nav-link fw-bold nav-link-hover" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link fw-bold nav-link-hover" href="industries.html">Industries</a></li>
+                    <li class="nav-item"><a class="nav-link fw-bold nav-link-hover" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link fw-bold nav-link-hover" href="portfolio.html">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link fw-bold nav-link-hover" href="aiml.html">AI/ML</a></li>
+                    <li class="nav-item"><a class="nav-link fw-bold nav-link-hover" href="internship.html">Internship</a></li>
+                    <li class="nav-item"><a class="nav-link fw-bold nav-link-hover" href="career.html">Career</a></li>
                 </ul>
-
                 <a href="#" class="btn btn-warning ms-lg-3 fw-bold">Contact Us</a>
             </div>
         </div>
     </nav>
-
-    <section class="py-5 text-white" style="background: linear-gradient(120deg, #0a1a33, #1c153b);">
-        <div class="container">
+    <section class="py-6 text-white position-relative overflow-hidden" style="background: url('network-bg.jpg') center/cover no-repeat, linear-gradient(135deg, #0a1a33 0%, #1a1f3a 50%, #2d1b4e 100%); background-blend-mode: overlay; min-height: 600px; display: flex; align-items: center;">
+        <div style="position: absolute; width: 300px; height: 300px; background: rgba(255, 193, 7, 0.1); border-radius: 50%; top: -100px; right: -100px;"></div>
+        <div style="position: absolute; width: 200px; height: 200px; background: rgba(255, 193, 7, 0.05); border-radius: 50%; bottom: 50px; left: 10%;"></div>
+        <div class="container position-relative z-2">
             <div class="row align-items-center gy-5">
-
                 <div class="col-lg-6">
-                    <h5 class="text-uppercase fs-6 fw-bold">Transform Your</h5>
-                    <h1 class="fw-bold display-4 mb-3">
-                        <span class="text-warning">ENTERPRISE</span><br>
-                        Potential
+                    <p class="text-uppercase fs-6 fw-bold text-warning mb-3">Welcome to Kvon Tech</p>
+                    <h1 class="fw-bold" style="font-size: 3.5rem; line-height: 1.2; margin-bottom: 20px;">
+                        Transform Your <br>
+                        <span class="text-warning">Business</span><br>
+                        With Innovation
                     </h1>
-                    <p class="fs-5 mb-4">
-                        WITH THE CUTTING-EDGE <span class="text-warning fw-bold">TECHNOLOGIES</span>
+                    <p class="fs-5 mb-4" style="line-height: 1.8; color: #e0e0e0;">
+                        Unlock the power of cutting-edge technologies to drive growth, efficiency, and digital transformation for your enterprise.
                     </p>
-                    <a href="#" class="btn btn-success btn-lg px-4 fw-bold">
-                        Explore Our Solutions
-                    </a>
+                    <div class="d-flex gap-3 flex-wrap">
+                        <a href="#" class="btn btn-warning btn-lg px-5 fw-bold" style="border-radius: 50px;">
+                            <i class="bi bi-rocket me-2"></i>Get Started
+                        </a>
+                        <a href="#" class="btn btn-outline-light btn-lg px-5 fw-bold" style="border-radius: 50px;">
+                            <i class="bi bi-play-circle me-2"></i>Watch Demo
+                        </a>
+                    </div>
                 </div>
                 <div class="col-lg-6 text-center">
-                    <img src="phoneImage.png" class="img-fluid" style="max-height: 500px; filter: drop-shadow(0 15px 35px rgba(0, 0, 0, 0.3));" alt="App Preview">
+                    <img src="https://tse3.mm.bing.net/th/id/OIP.6jabi3OllUTJAQG9gVj-nQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3" class="img-fluid rounded-4 shadow-lg" style="max-height: 450px; max-width: 100%; border: 3px solid rgba(255, 193, 7, 0.3);" alt="App Preview">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-6" style="background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);">
+        <div class="container">
+            <div class="text-center mb-5">
+                <p class="text-uppercase text-warning fw-bold fs-6 mb-2">What We Offer</p>
+                <h2 class="fw-bold mb-3" style="font-size: 2.8rem;">Comprehensive Services</h2>
+                <p class="fs-5 text-muted" style="max-width: 600px; margin: auto;">Discover our full range of technology solutions designed to accelerate your business growth and digital transformation.</p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow service-card-hover position-relative overflow-hidden" style="border-radius: 15px;">
+                        <div style="position: absolute; width: 80px; height: 80px; background: rgba(255, 193, 7, 0.1); border-radius: 50%; top: -30px; right: -30px;"></div>
+                        <div class="card-body p-4 position-relative z-2">
+                            <div class="mb-3" style="width: 60px; height: 60px; background: linear-gradient(135deg, #ffc107, #ff9800); border-radius: 12px; display: flex; align-items: center; justify-content: center;">
+                                <i class="bi bi-globe fs-1 text-white"></i>
+                            </div>
+                            <h5 class="card-title fw-bold mb-3">Web Development</h5>
+                            <p class="card-text text-muted">Building responsive, scalable websites with modern frameworks. From design to deployment, we create digital experiences that engage and convert.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow service-card-hover position-relative overflow-hidden" style="border-radius: 15px;">
+                        <div style="position: absolute; width: 80px; height: 80px; background: rgba(255, 193, 7, 0.1); border-radius: 50%; top: -30px; right: -30px;"></div>
+                        <div class="card-body p-4 position-relative z-2">
+                            <div class="mb-3" style="width: 60px; height: 60px; background: linear-gradient(135deg, #ffc107, #ff9800); border-radius: 12px; display: flex; align-items: center; justify-content: center;">
+                                <i class="bi bi-phone fs-1 text-white"></i>
+                            </div>
+                            <h5 class="card-title fw-bold mb-3">Mobile Apps</h5>
+                            <p class="card-text text-muted">Native and cross-platform mobile applications. We empower your business with apps that users love and that drive growth.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow service-card-hover position-relative overflow-hidden" style="border-radius: 15px;">
+                        <div style="position: absolute; width: 80px; height: 80px; background: rgba(255, 193, 7, 0.1); border-radius: 50%; top: -30px; right: -30px;"></div>
+                        <div class="card-body p-4 position-relative z-2">
+                            <div class="mb-3" style="width: 60px; height: 60px; background: linear-gradient(135deg, #ffc107, #ff9800); border-radius: 12px; display: flex; align-items: center; justify-content: center;">
+                                <i class="bi bi-cpu fs-1 text-white"></i>
+                            </div>
+                            <h5 class="card-title fw-bold mb-3">Software Development</h5>
+                            <p class="card-text text-muted">Custom enterprise solutions tailored to your needs. Robust, scalable, and secure applications built with precision.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow service-card-hover position-relative overflow-hidden" style="border-radius: 15px;">
+                        <div style="position: absolute; width: 80px; height: 80px; background: rgba(255, 193, 7, 0.1); border-radius: 50%; top: -30px; right: -30px;"></div>
+                        <div class="card-body p-4 position-relative z-2">
+                            <div class="mb-3" style="width: 60px; height: 60px; background: linear-gradient(135deg, #ffc107, #ff9800); border-radius: 12px; display: flex; align-items: center; justify-content: center;">
+                                <i class="bi bi-megaphone fs-1 text-white"></i>
+                            </div>
+                            <h5 class="card-title fw-bold mb-3">Digital Marketing</h5>
+                            <p class="card-text text-muted">Boost your online presence with strategic SEO, social media, and data-driven campaigns. Reach your audience effectively.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow service-card-hover position-relative overflow-hidden" style="border-radius: 15px;">
+                        <div style="position: absolute; width: 80px; height: 80px; background: rgba(255, 193, 7, 0.1); border-radius: 50%; top: -30px; right: -30px;"></div>
+                        <div class="card-body p-4 position-relative z-2">
+                            <div class="mb-3" style="width: 60px; height: 60px; background: linear-gradient(135deg, #ffc107, #ff9800); border-radius: 12px; display: flex; align-items: center; justify-content: center;">
+                                <i class="bi bi-brain fs-1 text-white"></i>
+                            </div>
+                            <h5 class="card-title fw-bold mb-3">AI/ML Solutions</h5>
+                            <p class="card-text text-muted">Intelligent automation and machine learning. Unlock insights and automate processes with advanced AI technology.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow service-card-hover position-relative overflow-hidden" style="border-radius: 15px;">
+                        <div style="position: absolute; width: 80px; height: 80px; background: rgba(255, 193, 7, 0.1); border-radius: 50%; top: -30px; right: -30px;"></div>
+                        <div class="card-body p-4 position-relative z-2">
+                            <div class="mb-3" style="width: 60px; height: 60px; background: linear-gradient(135deg, #ffc107, #ff9800); border-radius: 12px; display: flex; align-items: center; justify-content: center;">
+                                <i class="bi bi-gear fs-1 text-white"></i>
+                            </div>
+                            <h5 class="card-title fw-bold mb-3">DevOps Services</h5>
+                            <p class="card-text text-muted">Continuous deployment and infrastructure automation. Streamline operations and accelerate your time to market.</p>
+                        </div>
+                    </div>
                 </div>
 
             </div>
         </div>
     </section>
 
-    <section class="py-5" style="background: linear-gradient(135deg, #fdf1f1 0%, #f5e6e6 100%);">
-        <div class="container text-center">
-            <h2 class="fw-bold mb-5 display-5">SERVICES WE PROVIDE</h2>
-
-            <div class="row g-4">
-                <div class="col-md-6 col-lg-4">
-                    <div class="card h-100 border-0 shadow-sm service-card-hover">
-                        <div class="card-body p-4">
-                            <h5 class="card-title fw-bold mb-3">Web Development</h5>
-                            <p class="card-text text-muted">KvonTech's web development includes creating, building & maintaining websites with web design, publishing, programming & database management.</p>
-                        </div>
+    <section class="py-6" style="background: linear-gradient(135deg, #1a1f3a 0%, #2d1b4e 100%);">
+        <div class="container">
+            <div class="row g-4 text-center text-white">
+                <div class="col-md-6 col-lg-3">
+                    <div class="py-4">
+                        <h2 class="fw-bold display-5 text-warning">500+</h2>
+                        <p class="fs-5 text-light">Solutions Delivered</p>
                     </div>
                 </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="card h-100 border-0 shadow-sm service-card-hover">
-                        <div class="card-body p-4">
-                            <h5 class="card-title fw-bold mb-3">Mobile App Development</h5>
-                            <p class="card-text text-muted">We empower all-sized businesses to design, build, test, migrate, optimize, and manage Android and iPhone apps ensuring they stay up and running.</p>
-                        </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="py-4">
+                        <h2 class="fw-bold display-5 text-warning">200+</h2>
+                        <p class="fs-5 text-light">Happy Clients</p>
                     </div>
                 </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="card h-100 border-0 shadow-sm service-card-hover">
-                        <div class="card-body p-4">
-                            <h5 class="card-title fw-bold mb-3">Software Development</h5>
-                            <p class="card-text text-muted">We provide tailored software development services, creating desktop applications, mobile apps, and enterprise solutions to meet your unique business needs.</p>
-                        </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="py-4">
+                        <h2 class="fw-bold display-5 text-warning">100+</h2>
+                        <p class="fs-5 text-light">Expert Team Members</p>
                     </div>
                 </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="card h-100 border-0 shadow-sm service-card-hover">
-                        <div class="card-body p-4">
-                            <h5 class="card-title fw-bold mb-3">Digital Marketing</h5>
-                            <p class="card-text text-muted">KvonTech's excels in SEO, social media marketing, lead management, product promotion, and ad generation, boosting visibility and conversions for companies.</p>
-                        </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="py-4">
+                        <h2 class="fw-bold display-5 text-warning">15+</h2>
+                        <p class="fs-5 text-light">Years Experience</p>
                     </div>
                 </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="card h-100 border-0 shadow-sm service-card-hover">
-                        <div class="card-body p-4">
-                            <h5 class="card-title fw-bold mb-3">AI/ML Solutions</h5>
-                            <p class="card-text text-muted">Leverage KvonTech's expertise in RPA, AI/ML, and product development, proven through over 500 successful solutions, to advance your company with cutting-edge Tech.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4">
-                    <div class="card h-100 border-0 shadow-sm service-card-hover">
-                        <div class="card-body p-4">
-                            <h5 class="card-title fw-bold mb-3">Devops Services</h5>
-                            <p class="card-text text-muted">KvonTech's DevOps solutions enable agile market opportunities, continuous deployment, and seamless scaling, reducing costs and fostering exponential growth</p>
-                        </div>
-                    </div>
-                </div>
-
             </div>
         </div>
     </section>
@@ -141,7 +206,7 @@
             <div class="row align-items-center gy-5">
                 <div class="col-lg-6">
                     <h3 class="fw-bold fs-2 text-warning mb-4 text-uppercase">WEB DEVELOPMENT</h3>
-                    <p class="text-muted fs-5 lh-lg mb-5">
+                    <p class="text-muted fs-5 lh-lg mb-5" style="color: #e8e8e8;">
                         At Kvon Tech, we deliver comprehensive web development services using the latest technologies
                         and frameworks.
                         Our expert developers create responsive, scalable, and high-performance websites that drive
@@ -222,6 +287,21 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+            const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+            
+            navLinks.forEach(link => {
+                const href = link.getAttribute('href');
+                if (href === currentPage || (currentPage === '' && href === 'index.html')) {
+                    link.classList.add('active');
+                } else {
+                    link.classList.remove('active');
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>

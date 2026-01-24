@@ -7,6 +7,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+
 .nav-link-hover {
     position: relative;
     transition: color 0.3s ease;
@@ -25,6 +26,14 @@ body {
 }
 
 .nav-link-hover:hover::after {
+    width: 80%;
+}
+
+.nav-link-hover.active {
+    color: #ffc107 !important;
+}
+
+.nav-link-hover.active::after {
     width: 80%;
 }
 
@@ -74,7 +83,6 @@ body {
     filter: drop-shadow(0 8px 20px rgba(0, 0, 0, 0.2));
 }
 
-/* Floating Image */
 .floating-image {
     animation: floatLoop 4s ease-in-out infinite;
 }
