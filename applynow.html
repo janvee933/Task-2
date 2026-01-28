@@ -12,10 +12,7 @@
 </head>
 
 <body>
-
-
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
         <div class="container">
             <img src="logo.png" alt="Kvon Tech Logo" class="navbar-brand" width="75" height="40">
 
@@ -24,31 +21,34 @@
             </button>
 
             <div class="navbar-collapse" id="navMenu">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-2">
-                    <li class="nav-item"><a class="nav-link fw-500 nav-link-hover" href="about.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link fw-500 nav-link-hover" href="industries.html">Industries</a>
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-3">
+                    <li class="nav-item"><a class="nav-link fw-bold nav-link-hover" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link fw-bold nav-link-hover"
+                            href="industries.html">Industries</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link fw-500 nav-link-hover" href="services.html">Services</a>
+                    <li class="nav-item"><a class="nav-link fw-bold nav-link-hover" href="services.html">Services</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link fw-500 nav-link-hover" href="portfolio.html">Portfolio</a>
+                    <li class="nav-item"><a class="nav-link fw-bold nav-link-hover" href="portfolio.html">Portfolio</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link fw-500 nav-link-hover" href="aiml.html">AI/ML</a></li>
-                    <li class="nav-item"><a class="nav-link fw-500 nav-link-hover" href="internship.html">Internship</a>
+                    <li class="nav-item"><a class="nav-link fw-bold nav-link-hover" href="aiml.html">AI/ML</a></li>
+                    <li class="nav-item"><a class="nav-link fw-bold nav-link-hover"
+                            href="internship.html">Internship</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link fw-500 nav-link-hover" href="career.html">Career</a></li>
+                    <li class="nav-item"><a class="nav-link fw-bold nav-link-hover" href="career.html">Career</a></li>
                 </ul>
 
-                <a href="contact.html" class="btn btn-warning ms-lg-3 fw-bold">Contact Us</a>
+                <a href="contact.html" class="btn btn-warning ms-lg-3 fw-bold shadow-sm rounded-pill px-4">Contact
+                    Us</a>
             </div>
         </div>
     </nav>
 
-    <section class="py-5 text-white" style="background-image: linear-gradient(120deg, #0a1a33, #1c153b);">
+    <section class="py-5 text-center text-white">
         <div class="container">
-            <h1 class="fw-bold display-4 mb-3">
+            <h1 class="fw-bold display-4 mb-3 animate-fade-in">
                 Apply <span class="text-warning">NOW</span>
             </h1>
-            <p class="fs-5 mb-4">
+            <p class="fs-5 mb-4 opacity-75 animate-slide-up">
                 Join our team and take the next step in your career journey
             </p>
         </div>
@@ -58,130 +58,167 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-10">
-                    <div class="bg-white p-5 rounded shadow-lg">
-                        <div class="mb-4">
-                            <span class="text-warning fw-bold small">INTERNSHIP</span>
-                            <h2 class="fw-bold mt-2 mb-4">HAVE QUESTIONS? GET IN TOUCH!</h2>
+                    <div class="p-5 rounded-4 shadow-lg animate-slide-up"
+                        style="background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1);">
+                        <div class="mb-5 text-center">
+                            <span class="badge bg-warning text-dark px-3 py-2 rounded-pill mb-3">CAREERS</span>
+                            <h2 class="fw-bold text-white">Start Your Journey With Us</h2>
                         </div>
 
-                        <form id="applicationForm" class="row g-3">
+                        <form id="applicationForm" class="row g-4 text-white">
                             <!-- Row 1 -->
                             <div class="col-md-6">
+                                <label class="form-label small text-uppercase fw-bold text-muted">Full Name</label>
                                 <div class="input-group">
-                                    <span class="input-group-text border-0 bg-white"><i
-                                            class="bi bi-person-fill text-muted"></i></span>
-                                    <input type="text" class="form-control border-start-0 ps-0"
-                                        placeholder="Enter Your Name" required>
+                                    <span class="input-group-text bg-transparent border-secondary text-warning"><i
+                                            class="bi bi-person"></i></span>
+                                    <input type="text"
+                                        class="form-control bg-transparent border-secondary text-white shadow-none"
+                                        placeholder="John Doe" required style="border-left: none;">
                                 </div>
                             </div>
                             <div class="col-md-6">
+                                <label class="form-label small text-uppercase fw-bold text-muted">Father's
+                                    Name</label>
                                 <div class="input-group">
-                                    <span class="input-group-text border-0 bg-white"><i
-                                            class="bi bi-person-fill text-muted"></i></span>
-                                    <input type="text" class="form-control border-start-0 ps-0"
-                                        placeholder="Enter Your Father's Name" required>
+                                    <span class="input-group-text bg-transparent border-secondary text-warning"><i
+                                            class="bi bi-person-badge"></i></span>
+                                    <input type="text"
+                                        class="form-control bg-transparent border-secondary text-white shadow-none"
+                                        placeholder="Father's Name" required style="border-left: none;">
                                 </div>
                             </div>
 
                             <!-- Row 2 -->
                             <div class="col-md-6">
+                                <label class="form-label small text-uppercase fw-bold text-muted">Contact
+                                    Number</label>
                                 <div class="input-group">
-                                    <span class="input-group-text border-0 bg-white"><i
-                                            class="bi bi-telephone-fill text-muted"></i></span>
-                                    <input type="tel" class="form-control border-start-0 ps-0"
-                                        placeholder="Enter Your Contact Number" required>
+                                    <span class="input-group-text bg-transparent border-secondary text-warning"><i
+                                            class="bi bi-telephone"></i></span>
+                                    <input type="tel"
+                                        class="form-control bg-transparent border-secondary text-white shadow-none"
+                                        placeholder="+91 98765 43210" required style="border-left: none;">
                                 </div>
                             </div>
                             <div class="col-md-6">
+                                <label class="form-label small text-uppercase fw-bold text-muted">Alternative
+                                    Number</label>
                                 <div class="input-group">
-                                    <span class="input-group-text border-0 bg-white"><i
-                                            class="bi bi-telephone-fill text-muted"></i></span>
-                                    <input type="tel" class="form-control border-start-0 ps-0"
-                                        placeholder="Enter Your Alternative Contact Number">
+                                    <span class="input-group-text bg-transparent border-secondary text-warning"><i
+                                            class="bi bi-telephone-plus"></i></span>
+                                    <input type="tel"
+                                        class="form-control bg-transparent border-secondary text-white shadow-none"
+                                        placeholder="+91 98765 43210" style="border-left: none;">
                                 </div>
                             </div>
 
                             <!-- Row 3 -->
                             <div class="col-md-6">
+                                <label class="form-label small text-uppercase fw-bold text-muted">Email
+                                    Address</label>
                                 <div class="input-group">
-                                    <span class="input-group-text border-0 bg-white"><i
-                                            class="bi bi-envelope-fill text-muted"></i></span>
-                                    <input type="email" class="form-control border-start-0 ps-0"
-                                        placeholder="Enter Your Email" required>
+                                    <span class="input-group-text bg-transparent border-secondary text-warning"><i
+                                            class="bi bi-envelope"></i></span>
+                                    <input type="email"
+                                        class="form-control bg-transparent border-secondary text-white shadow-none"
+                                        placeholder="john@example.com" required style="border-left: none;">
                                 </div>
                             </div>
                             <div class="col-md-6">
+                                <label class="form-label small text-uppercase fw-bold text-muted">College /
+                                    Institute</label>
                                 <div class="input-group">
-                                    <span class="input-group-text border-0 bg-white"><i
-                                            class="bi bi-building text-muted"></i></span>
-                                    <input type="text" class="form-control border-start-0 ps-0"
-                                        placeholder="Enter Your College / Institute Name" required>
+                                    <span class="input-group-text bg-transparent border-secondary text-warning"><i
+                                            class="bi bi-building"></i></span>
+                                    <input type="text"
+                                        class="form-control bg-transparent border-secondary text-white shadow-none"
+                                        placeholder="University Name" required style="border-left: none;">
                                 </div>
                             </div>
 
                             <!-- Row 4 -->
                             <div class="col-md-6">
+                                <label class="form-label small text-uppercase fw-bold text-muted">Qualification</label>
                                 <div class="input-group">
-                                    <span class="input-group-text border-0 bg-white"><i
-                                            class="bi bi-mortarboard-fill text-muted"></i></span>
-                                    <select class="form-select border-start-0 ps-0" required>
-                                        <option selected disabled>Select Qualification</option>
-                                        <option value="12th">12th Pass</option>
-                                        <option value="diploma">Diploma</option>
-                                        <option value="btech">B.Tech</option>
-                                        <option value="mtech">M.Tech</option>
-                                        <option value="other">Other</option>
+                                    <span class="input-group-text bg-transparent border-secondary text-warning"><i
+                                            class="bi bi-mortarboard"></i></span>
+                                    <select class="form-select bg-transparent border-secondary text-white shadow-none"
+                                        required style="border-left: none;">
+                                        <option selected disabled class="text-dark">Select Qualification</option>
+                                        <option value="12th" class="text-dark">12th Pass</option>
+                                        <option value="diploma" class="text-dark">Diploma</option>
+                                        <option value="btech" class="text-dark">B.Tech</option>
+                                        <option value="mtech" class="text-dark">M.Tech</option>
+                                        <option value="other" class="text-dark">Other</option>
                                     </select>
                                 </div>
                             </div>
                             <div class="col-md-6">
+                                <label class="form-label small text-uppercase fw-bold text-muted">Interested
+                                    Domain</label>
                                 <div class="input-group">
-                                    <span class="input-group-text border-0 bg-white"><i
-                                            class="bi bi-mortarboard-fill text-muted"></i></span>
-                                    <select class="form-select border-start-0 ps-0" required>
-                                        <option selected disabled>Choose Domain</option>
-                                        <option value="frontend">Frontend Development</option>
-                                        <option value="backend">Backend Development</option>
-                                        <option value="mobile">Mobile Development</option>
-                                        <option value="aiml">AI/ML</option>
-                                        <option value="devops">DevOps & Cloud</option>
-                                        <option value="qa">QA & Testing</option>
+                                    <span class="input-group-text bg-transparent border-secondary text-warning"><i
+                                            class="bi bi-briefcase"></i></span>
+                                    <select class="form-select bg-transparent border-secondary text-white shadow-none"
+                                        required style="border-left: none;">
+                                        <option selected disabled class="text-dark">Choose Domain</option>
+                                        <option value="frontend" class="text-dark">Frontend Development</option>
+                                        <option value="backend" class="text-dark">Backend Development</option>
+                                        <option value="mobile" class="text-dark">Mobile Development</option>
+                                        <option value="aiml" class="text-dark">AI/ML</option>
+                                        <option value="devops" class="text-dark">DevOps & Cloud</option>
+                                        <option value="qa" class="text-dark">QA & Testing</option>
                                     </select>
                                 </div>
                             </div>
 
                             <!-- Row 5 -->
-                            <div class="col-md-6">
-                                <div class="d-flex align-items-center">
-                                    <span class="text-muted me-2"><i class="bi bi-file-earmark-pdf"></i></span>
-                                    <span class="me-3">Upload Your Resume</span>
-                                    <input type="file" class="form-control form-control-sm" accept=".pdf,.doc,.docx">
+                            <div class="col-md-12">
+                                <label class="form-label small text-uppercase fw-bold text-muted">Upload Resume</label>
+                                <div class="input-group">
+                                    <span class="input-group-text bg-transparent border-secondary text-warning"><i
+                                            class="bi bi-cloud-arrow-up"></i></span>
+                                    <input type="file"
+                                        class="form-control bg-transparent border-secondary text-white shadow-none"
+                                        accept=".pdf,.doc,.docx" style="border-left: none;">
                                 </div>
+                                <div class="form-text text-muted">Supported formats: PDF, DOC, DOCX. Max size: 5MB</div>
                             </div>
 
                             <!-- Row 6 -->
                             <div class="col-12">
+                                <label class="form-label small text-uppercase fw-bold text-muted">Brief
+                                    Introduction</label>
                                 <div class="input-group">
-                                    <span class="input-group-text border-0 bg-white"><i
-                                            class="bi bi-chat-dots text-muted"></i></span>
-                                    <textarea class="form-control border-start-0 ps-0" placeholder="Enter Brief Info"
-                                        rows="4"></textarea>
+                                    <span class="input-group-text bg-transparent border-secondary text-warning"><i
+                                            class="bi bi-chat-quote"></i></span>
+                                    <textarea
+                                        class="form-control bg-transparent border-secondary text-white shadow-none"
+                                        placeholder="Tell us a bit about yourself and why you want to join us..."
+                                        rows="3" style="border-left: none;"></textarea>
                                 </div>
                             </div>
 
                             <!-- Row 7 -->
                             <div class="col-12">
+                                <label class="form-label small text-uppercase fw-bold text-muted">Any Query?</label>
                                 <div class="input-group">
-                                    <span class="input-group-text border-0 bg-white"><i
-                                            class="bi bi-chat-dots text-muted"></i></span>
-                                    <textarea class="form-control border-start-0 ps-0" placeholder="Enter Any Query"
-                                        rows="4"></textarea>
+                                    <span class="input-group-text bg-transparent border-secondary text-warning"><i
+                                            class="bi bi-question-circle"></i></span>
+                                    <textarea
+                                        class="form-control bg-transparent border-secondary text-white shadow-none"
+                                        placeholder="Do you have any questions for us?" rows="2"
+                                        style="border-left: none;"></textarea>
                                 </div>
                             </div>
 
                             <!-- Submit Button -->
-                            <div class="col-12 text-center">
-                                <button type="submit" class="btn btn-warning fw-bold px-5 py-2">Submit Now</button>
+                            <div class="col-12 text-center mt-5">
+                                <button type="submit"
+                                    class="btn btn-warning fw-bold px-5 py-3 rounded-pill shadow-lg text-uppercase letter-spacing-2 neon-pulse w-100 w-md-auto">
+                                    Submit Application <i class="bi bi-arrow-right ms-2"></i>
+                                </button>
                             </div>
                         </form>
                     </div>
@@ -190,8 +227,7 @@
         </div>
     </section>
 
-    <footer class="pt-5 border-top border-warning border-5"
-        style="background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%);">
+    <footer class="pt-5 border-top border-warning border-1">
         <div class="container text-center text-md-start">
             <div class="row align-items-center gy-4">
                 <div class="col-md-6 mb-4">
@@ -220,6 +256,27 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const form = document.getElementById('applicationForm');
+            form.addEventListener('submit', function (e) {
+                e.preventDefault();
+                // Simulating form submission
+                const btn = form.querySelector('button[type="submit"]');
+                const originalText = btn.innerHTML;
+
+                btn.innerHTML = '<span class="spinner-border spinner-border-sm me-2"></span>Submitting...';
+                btn.disabled = true;
+
+                setTimeout(() => {
+                    alert('Thank you for applying! Your application has been submitted successfully.');
+                    form.reset();
+                    btn.innerHTML = originalText;
+                    btn.disabled = false;
+                }, 1500);
+            });
+        });
+    </script>
 </body>
 
 </html>
